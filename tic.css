@@ -1,0 +1,115 @@
+h1 {
+	color: yellow;
+	margin-bottom: -5px;
+	background-color: palevioletred;
+}
+p {
+	margin-bottom: -10px;
+}
+.ui {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.row {
+	display: flex;
+}
+.cell {
+	border: none;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	background-color: burlywood;
+}
+.cell:active {
+	outline: none;
+}
+/* 3*3 Grid */
+#b1{
+	border-bottom: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#b2 {
+	border-bottom: 1px solid red;
+	border-right: 1px solid red;
+	border-left: 1px solid red;
+}
+
+#b3 {
+	border-bottom: 1px solid red;
+	border-left: 1px solid red;
+}
+
+#b4 {
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	border-right: 1px solid red;
+}
+	
+#b5 {
+	border: 1px solid red;
+}
+
+#b6 {
+	border-top: 1px solid red;
+	border-bottom: 1px solid red;
+	border-left: 1px solid red;
+}
+
+#b7 {
+	border-top: 1px solid red;
+	border-right: 1px solid red;
+}
+
+#b8 {
+	border-top: 1px solid red;
+	border-right: 1px solid red;
+	border-left: 1px solid red;
+}
+
+#b9 {
+	border-top: 1px solid red;
+	border-left: 1px solid red;
+}
+/* Reset Button */
+#but {
+	box-sizing: border-box;
+	width: 95px;
+	height: 40px;
+	border: 1px solid green;
+	margin-left: auto;
+	border-radius: 8px;
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+
+	background-color: lightseagreen;
+	color: green;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/* Player turn space */
+#print {
+	font-family: Verdana,
+		Geneva, Tahoma, sans-serif;
+	color: orchid;
+	font-size: 20px;
+}
+
+/* Main Container */
+#main {
+	text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+	font-family: Verdana,Geneva,
+					Tahoma, sans-serif;
+	color: dodgerblue;
+}
